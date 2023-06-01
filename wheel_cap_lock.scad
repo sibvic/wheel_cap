@@ -1,12 +1,12 @@
 outer_cap_dia = 58; // Outer diameter of a cap
-base_cap_height = 1.5;
-thickness = 1.5;
-connector_height = 9;
-connector_hole_dia = 3; // Dia of the connector hole
-connector_hole_offset = 3;
+base_cap_height = 1.5; // Height of the cap base
+thickness = 1.5; // Thickness of the wall
+connector_height = 9; // Height of the "pin"
+connector_hole_dia = 4; // Dia of the connector hole
+connector_hole_offset = 3; // Offset from the base edge
 connector_size = 8.5;
-lock_holder_width = 13;
-lock_pin_size = 2;
+lock_holder_width = 13; // Width of the pin
+lock_pin_size = 2.2; // Additional thikness of the pin
 
 //horizontal body
 difference()
